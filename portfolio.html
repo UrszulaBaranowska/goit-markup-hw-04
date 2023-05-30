@@ -17,36 +17,38 @@
       rel="stylesheet"
     />
   </head>
-  <header class="container">
-    <div class="wrapper">
-      <div class="navigation">
-        <section>
-          <h2>
-            <a class="logostyle" href="index.html">
-              <span class="logo">Web</span><span class="studio">Studio</span></a
-            >
-          </h2>
-        </section>
-        <nav>
-          <ul class="sitenav">
-            <li><a class="nav" href="./index.html">Agencja</a></li>
-            <li><a class="nav" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="nav" href="/kontakt">Kontakt</a></li>
-          </ul>
-        </nav>
+  <body>
+  <header class="top-menu-line">
+    <div class="container flex-container">
+      <a class="logostyle" href="index.html"
+        ><span class="logo-studio">Web</span>Studio</a
+      >
+      <nav>
+        <ul class="site-navigation">
+          <li>
+            <a class="nav-links" href="./index.html">Agencja</a>
+          </li>
+          <li>
+            <a class="nav-links" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="nav-links" href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="flex-contact-links">
+        <a class="nav-links link-color" href="mailto:info@devstudio.com"
+          ><svg class="icons-nav-link" width="16" height="12">
+            <use href="./images/icons.svg#icon-envelope"></use>
+          </svg>
+          <span>info@devstudio.com</span>
+        </a>
+
+        <a class="nav-links link-color" href="callto:+48111111111">
+          <svg class="icons-nav-link" width="16" height="12">
+            <use href="./images/icons.svg#icon-smartphone"></use>
+          </svg>
+          <span>+48 111 111 111</span></a
+        >
       </div>
-      <section>
-        <div class="nav.links">
-          <ul class="contact-nav">
-            <li>
-              <a class="contact-links" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li><a class="contact-links">+48 777 777 77 77</a></li>
-          </ul>
-        </div>
-      </section>
     </div>
   </header>
   <main>
@@ -187,11 +189,14 @@
   <footer>
     <div class="container">
       <a class="logostyle" href="index.html">
-        <span class="logo">Web</span><span class="studiof">Studio</span></a
+        <span class="logo-studio">Web</span
+        ><span class="studiof">Studio</span></a
       >
       <address>
         <ul class="footerlist">
-          <li><a class="address1">m. Warszawa, Aleje Jerozolimskie 21,</a></li>
+          <li>
+            <a class="address1">m. Warszawa, Aleje Jerozolimskie 21,</a>
+          </li>
           <li class="footer-contact-gap">
             <a class="address2">info@example.com</a>
           </li>
@@ -202,4 +207,5 @@
       </address>
     </div>
   </footer>
+</body>
 </html>
